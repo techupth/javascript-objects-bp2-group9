@@ -1,29 +1,21 @@
 // Exercise #3 Debugging
 
 // Start coding here
-const employee = {
-  name: "John Doe",
-  age: 18,
-  address: {
-    street: "123 Main Street",
-    city: "Cityville",
-    states: "Stateville",
-    country: "Countryland",
-    postalCode: "12345",
-  },
-};
-
-console.log("Employee Name: " + employees.name);
-console.log("Employee Age: " + employee.age);
-console.log(
-  "Employee Address: " +
-    employee.address.street +
-    ", " +
-    employee.address.city +
-    ", " +
-    employee.address.state +
-    ", " +
-    employee.address.country +
-    " " +
-    employee.adress.postalCode
-);
+const Employee =  
+{ 
+    Name: "John Doe", 
+    Age: 18, 
+    Address:  
+    { 
+      street: "123 Main Street", 
+      city: "Cityville", 
+      states: "Stateville", 
+      country: "Countryland", 
+      postalCode: "12345", 
+    }, 
+}; 
+console.log("Employee Name: " + Employee.Name); 
+console.log("Employee Age: " + Employee.Age); 
+console.log("Employee Address: " + Employee.Address.street + ", " + 
+Employee.Address.city + ", " + Employee.Address.states + ", " + 
+Employee.Address.country + ", " + Employee.Address.postalCode); 
